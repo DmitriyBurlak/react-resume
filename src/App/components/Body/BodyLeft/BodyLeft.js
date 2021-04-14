@@ -1,5 +1,6 @@
 import React from 'react'
 import BodyWrapper from '../BodyWrapper/BodyWrapper'
+import ReactSpeedometer from "react-d3-speedometer"
 import './BodyLeft.scss'
 
 const BodyLeft = props => (

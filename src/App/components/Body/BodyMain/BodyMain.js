@@ -3,6 +3,7 @@ import BodyWrapper from '../BodyWrapper/BodyWrapper'
 import BodyMainItem from './BodyMainItem/BodyMainItem'
 import BodyMainItemRow from './BodyMainItem/BodyMainItemRow/BodyMainItemRow'
 import BodyMainItemTitle from './BodyMainItem/BodyMainItemTitle/BodyMainItemTitle'
+import ReactSpeedometer from "react-d3-speedometer"
 import './BodyMain.scss'
 
 const BodyMain = props => (
@@ -38,7 +39,20 @@ const BodyMain = props => (
                 <BodyMainItemRow label="О себе:" labeled="Огромное желание работать в команде и развиваться в направлении React;" />
             </BodyMainItem>
 
+            <BodyMainItem>
+                <ReactSpeedometer 
+                    width={200}
+                    maxValue={500}
+                    value={150}
+                    needleColor="red"
+                    startColor="green"
+                    segments={5}
+                    endColor="orange"
+                />
+            </BodyMainItem>
+
         </BodyWrapper>
+
     </div>
 )
 
