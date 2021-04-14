@@ -2,3 +2,9 @@
     width: 17%;
     max-width: 164px;
 }
+
+@media screen and (max-width: 960px) {
+    .SideBar {
+        display: none;
+    }
+}

@@ -50,3 +50,13 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .Main .item__row {
+        justify-content: space-between;
+        
+        .labeled {
+            width: 200px;
+        }
+    } 
+}
+

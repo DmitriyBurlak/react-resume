@@ -1,0 +1,1 @@
+https://dmitriyburlak.github.io/react-resume/dist/
