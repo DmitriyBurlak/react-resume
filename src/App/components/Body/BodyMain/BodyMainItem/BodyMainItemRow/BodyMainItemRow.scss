@@ -8,7 +8,7 @@
         width: 160px;
     }
 
-    .labeled {
+    .value {
         width: 300px;
         line-height: 20px;
         a {
@@ -22,7 +22,7 @@
     .body__main__item__row {
         justify-content: space-between;
         
-        .labeled {
+        .value {
             width: 200px;
         }
     } 
@@ -33,7 +33,7 @@
         flex-direction: column;
         padding: 8px 0;
         
-        .labeled {
+        .value {
             padding-top: 8px;
             width: 100%;
         }

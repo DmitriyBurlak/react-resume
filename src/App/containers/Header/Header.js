@@ -6,7 +6,7 @@ const Header = props => (
         <div className="wrapper">
             <div className="header__title">React-Resume</div>
             <div className="header__logo">
-                <div className="name">Дмитрий</div>
+                <div className="name">Dmitriy</div>
                 <div className="logo"></div>
             </div>
            

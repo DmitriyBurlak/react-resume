@@ -7,7 +7,7 @@ const SideBarList = props => (
     <ul className="side-bar__list">
         <li>
             <FontAwesomeIcon className="icon" icon="user-circle" /> 
-            Моё резюме
+            My resume
         </li>
     </ul>
 )
