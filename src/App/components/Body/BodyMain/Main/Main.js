@@ -20,8 +20,6 @@ const Main = props => (
                 <div className="label">Должность:</div>
                 <div className="labeled">Junior front-end developer</div>
             </div>
-
-            Время выполнения около: 4 часов
         </div> 
 
         <div className="item">
@@ -100,6 +98,10 @@ const Main = props => (
                 <div className="label">О себе:</div>
                 <div className="labeled">Огромное желание работать в команде и развиваться в направлении React;</div>
             </div>
+        </div> 
+
+        <div className="item">
+            Время выполнения около: 4.30 часов
         </div> 
 
         
