@@ -1,0 +1,41 @@
+.body__main__item__row {
+    padding: 5px 0;
+    display: flex;
+    font-size: 13px;
+
+    .label {
+        color: #818c99;
+        width: 160px;
+    }
+
+    .labeled {
+        width: 300px;
+        line-height: 20px;
+        a {
+            text-decoration: none;
+            color: #385ee7;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .body__main__item__row {
+        justify-content: space-between;
+        
+        .labeled {
+            width: 200px;
+        }
+    } 
+}
+
+@media screen and (max-width: 450px) {
+    .body__main__item__row {
+        flex-direction: column;
+        padding: 8px 0;
+        
+        .labeled {
+            padding-top: 8px;
+            width: 100%;
+        }
+    } 
+}

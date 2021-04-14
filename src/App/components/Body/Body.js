@@ -1,13 +1,13 @@
-import React from 'react';
-import './Body.scss';
-import BodyLeft from './BodyLeft/BodyLeft';
-import BodyMain from './BodyMain/BodyMain';
+import React from 'react'
+import BodyLeft from './BodyLeft/BodyLeft'
+import BodyMain from './BodyMain/BodyMain'
+import './Body.scss'
 
 const Body = props => (
-    <div className="Body">
+    <div className="body">
         <BodyLeft />
         <BodyMain />
     </div>
 )
 
-export default Body;
+export default Body

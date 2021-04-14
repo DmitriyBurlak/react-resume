@@ -11,7 +11,7 @@ class Page extends Component {
 
     render() {
         return (
-            <div className="Page">
+            <div className="page">
                 <div className="wrapper">
                     <SideBar/>
                     <Body />

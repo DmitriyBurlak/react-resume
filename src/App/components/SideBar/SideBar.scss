@@ -1,10 +1,10 @@
-.SideBar {
+.side-bar {
     width: 17%;
     max-width: 164px;
 }
 
 @media screen and (max-width: 960px) {
-    .SideBar {
+    .side-bar {
         display: none;
     }
 }

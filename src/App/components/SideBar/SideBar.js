@@ -3,7 +3,7 @@ import './SideBar.scss';
 import SideBarList from './SideBarList/SideBarList';
 
 const SideBar = props => (
-    <div className="SideBar">
+    <div className="side-bar">
       <SideBarList/>
     </div>
 )
