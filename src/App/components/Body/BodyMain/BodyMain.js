@@ -32,10 +32,10 @@ const BodyMain = props => (
 
             <BodyMainItem>
                 <BodyMainItemTitle text="Личная информация" />
-                <BodyMainItemRow label="GitHub:" labeled="https://github.com/DmitriyBurlak" />
-                <BodyMainItemRow label="Опыт с CMS:" labeled="HTML, CSS, SCSS, Java Script, немного jQuery и PHP, webpack, начальные знания React и Vue (верстка, создание компонентов, небольшая логика, props), Работа с системой контроля версий Git;" />
-                <BodyMainItemRow label="Ключевые навыки:" labeled="Wordpress, ModX, Bitrix, Joomla, OpenCart;" />
+                <BodyMainItemRow label="Ключевые навыки:" labeled="HTML, CSS, SCSS, JavaScript, немного jQuery и PHP, webpack, начальные знания React и Vue, Работа с системой контроля версий Git;" />
+                <BodyMainItemRow label="Опыт с CMS:" labeled="Wordpress, ModX, Bitrix, Joomla, OpenCart;" />
                 <BodyMainItemRow label="Графические редакторы:" labeled="PhotoShop, Figma;" />
+                <BodyMainItemRow label="GitHub:" labeled="https://github.com/DmitriyBurlak" />
                 <BodyMainItemRow label="О себе:" labeled="Огромное желание работать в команде и развиваться в направлении React;" />
             </BodyMainItem>
 
