@@ -1,0 +1,39 @@
+.Header {
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+
+    .wrapper {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        .name {
+            font-size: 15px;
+            font-weight: 600;
+            padding-right: 10px;
+        }
+
+        .logo {
+            width: 35px;
+            height: 35px;
+            border-radius: 50px;
+            background-image: url(https://sun1-30.userapi.com/s/v1/if2/1qvV9WVUhr_L9t15Yckf3RBHC-PlAfhsebERwsqGpSfCkFsMY0LRkld9XVvLcWMRNKKby5uszK5mlwqImrFMlh_a.jpg?size=50x0&quality=96&crop=0,112,1099,1099&ava=1);
+            background-size: cover;
+        }
+    }
+
+
+}
+

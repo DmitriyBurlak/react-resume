@@ -1,0 +1,52 @@
+.Main {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+
+    .name {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+
+    .item {
+        position: relative;
+        border-top: 1px solid #d3d3d3;
+        padding: 15px 0;
+
+        &__title {
+            position: absolute;
+            top: -9px;
+            left: 0;
+            padding-right: 5px;
+            font-size: 13px;
+            color: #454242;
+            background: #fff;
+            width: max-content;
+        }
+
+        &__row {
+            padding: 5px 0;
+            display: flex;
+            font-size: 13px;
+
+            .label {
+                color: #818c99;
+                width: 160px;
+            }
+
+            .labeled {
+                width: 300px;
+                line-height: 20px;
+                a {
+                    text-decoration: none;
+                    color: #385ee7;
+                }
+            }
+        }
+
+    }
+}
+
