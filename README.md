@@ -1,1 +1,1 @@
-https://dmitriyburlak.github.io/react-resume/dist/
+https://dmitriyburlak.github.io/react-resume/dist/index.html
