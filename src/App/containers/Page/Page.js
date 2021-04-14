@@ -4,11 +4,6 @@ import SideBar from '../../components/SideBar/SideBar';
 import './Page.scss'
 
 class Page extends Component {
-    constructor(props){
-        super(props);
-          
-    }
-
     render() {
         return (
             <div className="page">
